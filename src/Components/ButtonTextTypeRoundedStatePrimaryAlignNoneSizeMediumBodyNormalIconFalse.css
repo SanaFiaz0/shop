@@ -1,0 +1,30 @@
+
+.ButtonTextTypeRoundedStatePrimaryAlignNoneSizeMediumBodyNormalIconFalse_ButtonTextTypeRoundedStatePrimaryAlignNoneSizeMediumBodyNormalIconFalse {
+	width: 126px;
+	height: 48px;
+	display: flex;
+	padding-top: 14px;
+	padding-right: 24px;
+	padding-bottom: 14px;
+	padding-left: 24px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	background: rgba(248,99,56,1.00);
+	border-radius: 8px;
+}
+.ButtonTextTypeRoundedStatePrimaryAlignNoneSizeMediumBodyNormalIconFalse_ButtonTextTypeRoundedStatePrimaryAlignNoneSizeMediumBodyNormalIconFalse .ClickHere {
+	position: relative;
+	flex: none;
+	margin-right: 10px;
+	width: 78px;
+	height: 19px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Mulish;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19.200000762939453px;
+}

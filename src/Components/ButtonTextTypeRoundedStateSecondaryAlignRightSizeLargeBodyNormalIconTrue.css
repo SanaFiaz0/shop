@@ -1,0 +1,66 @@
+
+.ButtonTextTypeRoundedStateSecondaryAlignRightSizeLargeBodyNormalIconTrue_ButtonTextTypeRoundedStateSecondaryAlignRightSizeLargeBodyNormalIconTrue {
+	width: 158px;
+	height: 56px;
+	display: flex;
+	padding-top: 16px;
+	padding-right: 24px;
+	padding-bottom: 16px;
+	padding-left: 24px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	border: 2px solid rgba(248.0000004172325,99.00000169873238,56.000000461936,1);
+}
+.ButtonTextTypeRoundedStateSecondaryAlignRightSizeLargeBodyNormalIconTrue_ButtonTextTypeRoundedStateSecondaryAlignRightSizeLargeBodyNormalIconTrue .Frame948 {
+	position: relative;
+	flex: none;
+	margin-right: 8px;
+	width: 110px;
+	height: 24px;
+	display: flex;
+	box-sizing: border-box;
+	align-items: center;
+}
+.ButtonTextTypeRoundedStateSecondaryAlignRightSizeLargeBodyNormalIconTrue_ButtonTextTypeRoundedStateSecondaryAlignRightSizeLargeBodyNormalIconTrue .Frame948 .ClickHere {
+	position: relative;
+	flex: none;
+	margin-right: 8px;
+	width: 78px;
+	height: 19px;
+	display: flex;
+	align-items: center;
+	color: rgba(248,99,56,1.00);
+	font-family: Mulish;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19.200000762939453px;
+}
+.ButtonTextTypeRoundedStateSecondaryAlignRightSizeLargeBodyNormalIconTrue_ButtonTextTypeRoundedStateSecondaryAlignRightSizeLargeBodyNormalIconTrue .Frame948 .Group18 {
+	position: relative;
+	flex: none;
+	margin-right: 8px;
+	width: 21.818181818181817%;
+	height: 100%;
+}
+.ButtonTextTypeRoundedStateSecondaryAlignRightSizeLargeBodyNormalIconTrue_ButtonTextTypeRoundedStateSecondaryAlignRightSizeLargeBodyNormalIconTrue .Frame948 .Group18 .Rectangle1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+}
+.ButtonTextTypeRoundedStateSecondaryAlignRightSizeLargeBodyNormalIconTrue_ButtonTextTypeRoundedStateSecondaryAlignRightSizeLargeBodyNormalIconTrue .Frame948 .Group18 .NotificationBell {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.ButtonTextTypeRoundedStateSecondaryAlignRightSizeLargeBodyNormalIconTrue_ButtonTextTypeRoundedStateSecondaryAlignRightSizeLargeBodyNormalIconTrue .Frame948 .Group18 .NotificationBell .Vector {
+	position: absolute;
+	left: 3px;
+	top: 2px;
+	width: 75%;
+	height: 83.32951863606772%;
+}

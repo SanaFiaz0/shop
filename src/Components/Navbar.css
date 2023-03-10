@@ -1,0 +1,157 @@
+.Navbar {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1440px;
+	height: 205px;
+}
+.Navbar .Container_9 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1440px;
+	height: 93px;
+	background: rgba(255,255,255,1.00);
+}
+.Navbar .CallCentre {
+	position: absolute;
+	left: 1008px;
+	top: 37px;
+	width: 118px;
+	height: 24px;
+}
+.Navbar .CallCentre .CallCenter {
+	position: absolute;
+	left: 32px;
+	top: 2px;
+	width: 86px;
+	height: 19px;
+	color: rgba(17,20,45,1.00);
+	font-family: DM Sans;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19.200000762939453px;
+}
+.Navbar .CallCentre_1 {
+	position: absolute;
+	left: 1158px;
+	top: 37px;
+	width: 178px;
+	height: 24px;
+}
+.Navbar .Container_10 {
+	visibility: hidden;
+	position: absolute;
+	left: 0px;
+	top: 93px;
+	width: 1440px;
+	height: 112px;
+	background: rgba(255,255,255,1.00);
+}
+.Navbar .Dealerz_1 {
+	position: absolute;
+	left: 94px;
+	top: 25px;
+	width: 152px;
+	height: 47px;
+	color: rgba(248,99,56,1.00);
+	font-family: DM Sans;
+	font-size: 39px;
+	font-weight: 700;
+	line-height: 46.80000305175781px;
+}
+.Navbar .Searchbar_1 {
+	position: absolute;
+	left: 451px;
+	top: 121px;
+	width: 573px;
+	height: 56px;
+}
+.Navbar .Searchbar_1 .Container_11 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 573px;
+	height: 56px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 4px;
+}
+.Navbar .Searchbar_1 .Search_1 {
+	position: absolute;
+	left: 529px;
+	top: 16px;
+}
+.Navbar .Searchbar_1 .Searchwhatyouneed {
+	position: absolute;
+	left: 30px;
+	top: 19px;
+	width: 166px;
+	height: 20px;
+	color: rgba(154,154,176,1.00);
+	font-family: DM Sans;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navbar .Menu {
+	position: absolute;
+	left: 1088px;
+	top: 121px;
+	width: 248px;
+	height: 44px;
+}
+.Navbar .Categories {
+	position: absolute;
+	left: 94px;
+	top: 140px;
+	width: 265px;
+	height: 19px;
+}
+.Navbar .Categories .Shop_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 39px;
+	height: 19px;
+	color: rgba(17,20,45,1.00);
+	font-family: DM Sans;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19.200000762939453px;
+}
+.Navbar .Categories .Promo {
+	position: absolute;
+	left: 71px;
+	top: 0px;
+	width: 50px;
+	height: 19px;
+	color: rgba(17,20,45,1.00);
+	font-family: DM Sans;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19.200000762939453px;
+}
+.Navbar .Categories .About {
+	position: absolute;
+	left: 153px;
+	top: 0px;
+	width: 47px;
+	height: 19px;
+	color: rgba(17,20,45,1.00);
+	font-family: DM Sans;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19.200000762939453px;
+}
+ .Navbar .Categories .Blog {
+	position: absolute;
+	left: 232px;
+	top: 0px;
+	width: 33px;
+	height: 19px;
+	color: rgba(17,20,45,1.00);
+	font-family: DM Sans;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19.200000762939453px;
+}

@@ -1,0 +1,229 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import HomePage from '../Components/index';
+import Cart from '../Components/Cart';
+import Gallery from '../Components/Gallery';
+import ProductDetail from '../Components/ProductDetail';
+import Shop from '../Components/Shop';
+import Home from '../Components/Home';
+import Typography from '../Components/Typography';
+import SystemColor from '../Components/SystemColor';
+import Component from '../Components/Component';
+import ArrowRightCircle from '../Components/ArrowRightCircle';
+import TrashBin from '../Components/TrashBin';
+import ButtonIconTypeRoundedStateSecondaryAlignNoneSizeSmallBodySquareIconTrue from '../Components/ButtonIconTypeRoundedStateSecondaryAlignNoneSizeSmallBodySquareIconTrue';
+import Heart from '../Components/Heart';
+import ButtonTextTypeRoundedStateSecondaryAlignRightSizeSmallBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStateSecondaryAlignRightSizeSmallBodyNormalIconTrue';
+import ButtonTextTypeRoundedStatePrimaryAlignNoneSizeLargeBodyNormalIconFalse from '../Components/ButtonTextTypeRoundedStatePrimaryAlignNoneSizeLargeBodyNormalIconFalse';
+import ButtonTextTypeRoundedStatePrimaryAlignNoneSizeMediumBodyNormalIconFalse from '../Components/ButtonTextTypeRoundedStatePrimaryAlignNoneSizeMediumBodyNormalIconFalse';
+import Phone from '../Components/Phone';
+import TruckDelivery from '../Components/TruckDelivery';
+import Search from '../Components/Search';
+import UserProfile2 from '../Components/UserProfile2';
+import NotificationBell from '../Components/NotificationBell';
+import ShoppingCart from '../Components/ShoppingCart';
+import ArrowChevronLeft from '../Components/ArrowChevronLeft';
+import ArrowChevronRight from '../Components/ArrowChevronRight';
+import ArrowRight from '../Components/ArrowRight';
+import ButtonTextTypeRoundedStateSecondaryAlignRightSizeLargeBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStateSecondaryAlignRightSizeLargeBodyNormalIconTrue';
+import ButtonTextTypeRoundedStatePrimaryAlignRightSizeLargeBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStatePrimaryAlignRightSizeLargeBodyNormalIconTrue';
+import Filter from '../Components/Filter';
+import ButtonTextTypeRoundedStatePrimaryAlignNoneSizeSmallBodyNormalIconFalse from '../Components/ButtonTextTypeRoundedStatePrimaryAlignNoneSizeSmallBodyNormalIconFalse';
+import SynchReloadLeft_2 from '../Components/SynchReloadLeft_2';
+import ButtonTextTypeRoundedStatePrimaryAlignNoneSizeLargeBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStatePrimaryAlignNoneSizeLargeBodyNormalIconTrue';
+import ButtonTextTypeRoundedStatePrimaryAlignNoneSizeMediumBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStatePrimaryAlignNoneSizeMediumBodyNormalIconTrue';
+import ButtonTextTypeRoundedStatePrimaryAlignNoneSizeSmallBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStatePrimaryAlignNoneSizeSmallBodyNormalIconTrue';
+import ButtonTextTypeRoundedStatePrimaryAlignLeftSizeLargeBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStatePrimaryAlignLeftSizeLargeBodyNormalIconTrue';
+import ButtonTextTypeRoundedStatePrimaryAlignLeftSizeMediumBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStatePrimaryAlignLeftSizeMediumBodyNormalIconTrue';
+import ButtonTextTypeRoundedStatePrimaryAlignLeftSizeSmallBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStatePrimaryAlignLeftSizeSmallBodyNormalIconTrue';
+import Cloud from '../Components/Cloud';
+import UIUpload from '../Components/UIUpload';
+import ButtonTextTypeRoundedStatePrimaryAlignDoubleIconSizeLargeBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStatePrimaryAlignDoubleIconSizeLargeBodyNormalIconTrue';
+import ButtonTextTypeRoundedStatePrimaryAlignDoubleIconSizeMediumBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStatePrimaryAlignDoubleIconSizeMediumBodyNormalIconTrue';
+import ButtonTextTypeRoundedStatePrimaryAlignDoubleIconSizeSmallBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStatePrimaryAlignDoubleIconSizeSmallBodyNormalIconTrue';
+import ButtonTextTypeRoundedStatePrimaryAlignRightSizeMediumBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStatePrimaryAlignRightSizeMediumBodyNormalIconTrue';
+import ButtonTextTypeRoundedStatePrimaryAlignRightSizeSmallBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStatePrimaryAlignRightSizeSmallBodyNormalIconTrue';
+import ButtonTextTypeRoundedStatePrimaryAlignJustifySizeLargeBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStatePrimaryAlignJustifySizeLargeBodyNormalIconTrue';
+import ButtonTextTypeRoundedStatePrimaryAlignJustifySizeMediumBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStatePrimaryAlignJustifySizeMediumBodyNormalIconTrue';
+import ButtonTextTypeRoundedStatePrimaryAlignJustifySizeSmallBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStatePrimaryAlignJustifySizeSmallBodyNormalIconTrue';
+import ButtonIconTypeRoundedStatePrimaryAlignNoneSizeLargeBodySquareIconTrue from '../Components/ButtonIconTypeRoundedStatePrimaryAlignNoneSizeLargeBodySquareIconTrue';
+import ButtonIconTypeRoundedStatePrimaryAlignNoneSizeMediumBodySquareIconTrue from '../Components/ButtonIconTypeRoundedStatePrimaryAlignNoneSizeMediumBodySquareIconTrue';
+import ButtonIconTypeRoundedStatePrimaryAlignNoneSizeSmallBodySquareIconTrue from '../Components/ButtonIconTypeRoundedStatePrimaryAlignNoneSizeSmallBodySquareIconTrue';
+import ButtonTextTypeRoundedStateSecondaryAlignNoneSizeLargeBodyNormalIconFalse from '../Components/ButtonTextTypeRoundedStateSecondaryAlignNoneSizeLargeBodyNormalIconFalse';
+import ButtonTextTypeRoundedStateSecondaryAlignNoneSizeMediumBodyNormalIconFalse from '../Components/ButtonTextTypeRoundedStateSecondaryAlignNoneSizeMediumBodyNormalIconFalse';
+import ButtonTextTypeRoundedStateSecondaryAlignNoneSizeSmallBodyNormalIconFalse from '../Components/ButtonTextTypeRoundedStateSecondaryAlignNoneSizeSmallBodyNormalIconFalse';
+import ButtonTextTypeRoundedStateSecondaryAlignNoneSizeLargeBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStateSecondaryAlignNoneSizeLargeBodyNormalIconTrue';
+import ButtonTextTypeRoundedStateSecondaryAlignNoneSizeMediumBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStateSecondaryAlignNoneSizeMediumBodyNormalIconTrue';
+import ButtonTextTypeRoundedStateSecondaryAlignNoneSizeSmallBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStateSecondaryAlignNoneSizeSmallBodyNormalIconTrue';
+import ButtonTextTypeRoundedStateSecondaryAlignLeftSizeLargeBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStateSecondaryAlignLeftSizeLargeBodyNormalIconTrue';
+import ButtonTextTypeRoundedStateSecondaryAlignLeftSizeMediumBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStateSecondaryAlignLeftSizeMediumBodyNormalIconTrue';
+import ButtonTextTypeRoundedStateSecondaryAlignLeftSizeSmallBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStateSecondaryAlignLeftSizeSmallBodyNormalIconTrue';
+import ButtonTextTypeRoundedStateSecondaryAlignDoubleIconSizeLargeBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStateSecondaryAlignDoubleIconSizeLargeBodyNormalIconTrue';
+import ButtonTextTypeRoundedStateSecondaryAlignDoubleIconSizeMediumBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStateSecondaryAlignDoubleIconSizeMediumBodyNormalIconTrue';
+import ButtonTextTypeRoundedStateSecondaryAlignDoubleIconSizeSmallBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStateSecondaryAlignDoubleIconSizeSmallBodyNormalIconTrue';
+import ButtonTextTypeRoundedStateSecondaryAlignRightSizeMediumBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStateSecondaryAlignRightSizeMediumBodyNormalIconTrue';
+import ButtonTextTypeRoundedStateSecondaryAlignJustifySizeLargeBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStateSecondaryAlignJustifySizeLargeBodyNormalIconTrue';
+import ButtonTextTypeRoundedStateSecondaryAlignJustifySizeMediumBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStateSecondaryAlignJustifySizeMediumBodyNormalIconTrue';
+import ButtonTextTypeRoundedStateSecondaryAlignJustifySizeSmallBodyNormalIconTrue from '../Components/ButtonTextTypeRoundedStateSecondaryAlignJustifySizeSmallBodyNormalIconTrue';
+import ButtonIconTypeRoundedStateSecondaryAlignNoneSizeLargeBodySquareIconTrue from '../Components/ButtonIconTypeRoundedStateSecondaryAlignNoneSizeLargeBodySquareIconTrue';
+import ButtonIconTypeRoundedStateSecondaryAlignNoneSizeMediumBodySquareIconTrue from '../Components/ButtonIconTypeRoundedStateSecondaryAlignNoneSizeMediumBodySquareIconTrue';
+import ButtonIconTypeEllipseStatePrimaryAlignNoneSizeLargeBodyEllipseIconTrue from '../Components/ButtonIconTypeEllipseStatePrimaryAlignNoneSizeLargeBodyEllipseIconTrue';
+import ButtonIconTypeEllipseStatePrimaryAlignNoneSizeMediumBodyEllipseIconTrue from '../Components/ButtonIconTypeEllipseStatePrimaryAlignNoneSizeMediumBodyEllipseIconTrue';
+import ButtonIconTypeEllipseStatePrimaryAlignNoneSizeSmallBodyEllipseIconTrue from '../Components/ButtonIconTypeEllipseStatePrimaryAlignNoneSizeSmallBodyEllipseIconTrue';
+import ButtonIconTypeEllipseStateSecondaryAlignNoneSizeLargeBodyEllipseIconTrue from '../Components/ButtonIconTypeEllipseStateSecondaryAlignNoneSizeLargeBodyEllipseIconTrue';
+import ButtonIconTypeEllipseStateSecondaryAlignNoneSizeMediumBodyEllipseIconTrue from '../Components/ButtonIconTypeEllipseStateSecondaryAlignNoneSizeMediumBodyEllipseIconTrue';
+import ButtonIconTypeEllipseStateSecondaryAlignNoneSizeSmallBodyEllipseIconTrue from '../Components/ButtonIconTypeEllipseStateSecondaryAlignNoneSizeSmallBodyEllipseIconTrue';
+import ButtonTextTypeEllipseStatePrimaryAlignNoneSizeLargeBodyNormalIconFalse from '../Components/ButtonTextTypeEllipseStatePrimaryAlignNoneSizeLargeBodyNormalIconFalse';
+import ButtonTextTypeEllipseStatePrimaryAlignNoneSizeMediumBodyNormalIconFalse from '../Components/ButtonTextTypeEllipseStatePrimaryAlignNoneSizeMediumBodyNormalIconFalse';
+import ButtonTextTypeEllipseStatePrimaryAlignNoneSizeSmallBodyNormalIconFalse from '../Components/ButtonTextTypeEllipseStatePrimaryAlignNoneSizeSmallBodyNormalIconFalse';
+import ButtonTextTypeEllipseStatePrimaryAlignNoneSizeLargeBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStatePrimaryAlignNoneSizeLargeBodyNormalIconTrue';
+import ButtonTextTypeEllipseStatePrimaryAlignNoneSizeMediumBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStatePrimaryAlignNoneSizeMediumBodyNormalIconTrue';
+import ButtonTextTypeEllipseStatePrimaryAlignNoneSizeSmallBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStatePrimaryAlignNoneSizeSmallBodyNormalIconTrue';
+import ButtonTextTypeEllipseStatePrimaryAlignLeftSizeLargeBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStatePrimaryAlignLeftSizeLargeBodyNormalIconTrue';
+import ButtonTextTypeEllipseStatePrimaryAlignLeftSizeMediumBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStatePrimaryAlignLeftSizeMediumBodyNormalIconTrue';
+import ButtonTextTypeEllipseStatePrimaryAlignLeftSizeSmallBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStatePrimaryAlignLeftSizeSmallBodyNormalIconTrue';
+import ButtonTextTypeEllipseStatePrimaryAlignDoubleIconSizeLargeBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStatePrimaryAlignDoubleIconSizeLargeBodyNormalIconTrue';
+import ButtonTextTypeEllipseStatePrimaryAlignDoubleIconSizeMediumBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStatePrimaryAlignDoubleIconSizeMediumBodyNormalIconTrue';
+import ButtonTextTypeEllipseStatePrimaryAlignDoubleIconSizeSmallBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStatePrimaryAlignDoubleIconSizeSmallBodyNormalIconTrue';
+import ButtonTextTypeEllipseStatePrimaryAlignRightSizeLargeBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStatePrimaryAlignRightSizeLargeBodyNormalIconTrue';
+import ButtonTextTypeEllipseStatePrimaryAlignRightSizeMediumBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStatePrimaryAlignRightSizeMediumBodyNormalIconTrue';
+import ButtonTextTypeEllipseStatePrimaryAlignRightSizeSmallBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStatePrimaryAlignRightSizeSmallBodyNormalIconTrue';
+import ButtonTextTypeEllipseStatePrimaryAlignJustifySizeLargeBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStatePrimaryAlignJustifySizeLargeBodyNormalIconTrue';
+import ButtonTextTypeEllipseStatePrimaryAlignJustifySizeMediumBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStatePrimaryAlignJustifySizeMediumBodyNormalIconTrue';
+import ButtonTextTypeEllipseStatePrimaryAlignJustifySizeSmallBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStatePrimaryAlignJustifySizeSmallBodyNormalIconTrue';
+import ButtonTextTypeEllipseStateSecondaryAlignNoneSizeLargeBodyNormalIconFalse from '../Components/ButtonTextTypeEllipseStateSecondaryAlignNoneSizeLargeBodyNormalIconFalse';
+import ButtonTextTypeEllipseStateSecondaryAlignNoneSizeMediumBodyNormalIconFalse from '../Components/ButtonTextTypeEllipseStateSecondaryAlignNoneSizeMediumBodyNormalIconFalse';
+import ButtonTextTypeEllipseStateSecondaryAlignNoneSizeSmallBodyNormalIconFalse from '../Components/ButtonTextTypeEllipseStateSecondaryAlignNoneSizeSmallBodyNormalIconFalse';
+import ButtonTextTypeEllipseStateSecondaryAlignNoneSizeLargeBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStateSecondaryAlignNoneSizeLargeBodyNormalIconTrue';
+import ButtonTextTypeEllipseStateSecondaryAlignNoneSizeMediumBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStateSecondaryAlignNoneSizeMediumBodyNormalIconTrue';
+import ButtonTextTypeEllipseStateSecondaryAlignNoneSizeSmallBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStateSecondaryAlignNoneSizeSmallBodyNormalIconTrue';
+import ButtonTextTypeEllipseStateSecondaryAlignLeftSizeLargeBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStateSecondaryAlignLeftSizeLargeBodyNormalIconTrue';
+import ButtonTextTypeEllipseStateSecondaryAlignLeftSizeMediumBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStateSecondaryAlignLeftSizeMediumBodyNormalIconTrue';
+import ButtonTextTypeEllipseStateSecondaryAlignLeftSizeSmallBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStateSecondaryAlignLeftSizeSmallBodyNormalIconTrue';
+import ButtonTextTypeEllipseStateSecondaryAlignDoubleIconSizeLargeBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStateSecondaryAlignDoubleIconSizeLargeBodyNormalIconTrue';
+import ButtonTextTypeEllipseStateSecondaryAlignDoubleIconSizeMediumBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStateSecondaryAlignDoubleIconSizeMediumBodyNormalIconTrue';
+import ButtonTextTypeEllipseStateSecondaryAlignDoubleIconSizeSmallBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStateSecondaryAlignDoubleIconSizeSmallBodyNormalIconTrue';
+import ButtonTextTypeEllipseStateSecondaryAlignRightSizeLargeBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStateSecondaryAlignRightSizeLargeBodyNormalIconTrue';
+import ButtonTextTypeEllipseStateSecondaryAlignRightSizeMediumBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStateSecondaryAlignRightSizeMediumBodyNormalIconTrue';
+import ButtonTextTypeEllipseStateSecondaryAlignRightSizeSmallBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStateSecondaryAlignRightSizeSmallBodyNormalIconTrue';
+import ButtonTextTypeEllipseStateSecondaryAlignJustifySizeLargeBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStateSecondaryAlignJustifySizeLargeBodyNormalIconTrue';
+import ButtonTextTypeEllipseStateSecondaryAlignJustifySizeMediumBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStateSecondaryAlignJustifySizeMediumBodyNormalIconTrue';
+import ButtonTextTypeEllipseStateSecondaryAlignJustifySizeSmallBodyNormalIconTrue from '../Components/ButtonTextTypeEllipseStateSecondaryAlignJustifySizeSmallBodyNormalIconTrue';
+const RouterDOM = () => {
+	return (
+		<Router>
+			<Switch>
+				<Route exact path="/"><HomePage /></Route>
+				<Route exact path="/cart"><Cart /></Route>
+				<Route exact path="/gallery"><Gallery /></Route>
+				<Route exact path="/productdetail"><ProductDetail /></Route>
+				<Route exact path="/shop"><Shop /></Route>
+				<Route exact path="/home"><Home /></Route>
+				<Route exact path="/typography"><Typography /></Route>
+				<Route exact path="/systemcolor"><SystemColor /></Route>
+				<Route exact path="/component"><Component /></Route>
+				<Route exact path="/arrowrightcircle"><ArrowRightCircle /></Route>
+				<Route exact path="/trashbin"><TrashBin /></Route>
+				<Route exact path="/buttonicontyperoundedstatesecondaryalignnonesizesmallbodysquareicontrue"><ButtonIconTypeRoundedStateSecondaryAlignNoneSizeSmallBodySquareIconTrue /></Route>
+				<Route exact path="/heart"><Heart /></Route>
+				<Route exact path="/buttontexttyperoundedstatesecondaryalignrightsizesmallbodynormalicontrue"><ButtonTextTypeRoundedStateSecondaryAlignRightSizeSmallBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstateprimaryalignnonesizelargebodynormaliconfalse"><ButtonTextTypeRoundedStatePrimaryAlignNoneSizeLargeBodyNormalIconFalse /></Route>
+				<Route exact path="/buttontexttyperoundedstateprimaryalignnonesizemediumbodynormaliconfalse"><ButtonTextTypeRoundedStatePrimaryAlignNoneSizeMediumBodyNormalIconFalse /></Route>
+				<Route exact path="/phone"><Phone /></Route>
+				<Route exact path="/truckdelivery"><TruckDelivery /></Route>
+				<Route exact path="/search"><Search /></Route>
+				<Route exact path="/userprofile2"><UserProfile2 /></Route>
+				<Route exact path="/notificationbell"><NotificationBell /></Route>
+				<Route exact path="/shoppingcart"><ShoppingCart /></Route>
+				<Route exact path="/arrowchevronleft"><ArrowChevronLeft /></Route>
+				<Route exact path="/arrowchevronright"><ArrowChevronRight /></Route>
+				<Route exact path="/arrowright"><ArrowRight /></Route>
+				<Route exact path="/buttontexttyperoundedstatesecondaryalignrightsizelargebodynormalicontrue"><ButtonTextTypeRoundedStateSecondaryAlignRightSizeLargeBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstateprimaryalignrightsizelargebodynormalicontrue"><ButtonTextTypeRoundedStatePrimaryAlignRightSizeLargeBodyNormalIconTrue /></Route>
+				<Route exact path="/filter"><Filter /></Route>
+				<Route exact path="/buttontexttyperoundedstateprimaryalignnonesizesmallbodynormaliconfalse"><ButtonTextTypeRoundedStatePrimaryAlignNoneSizeSmallBodyNormalIconFalse /></Route>
+				<Route exact path="/synchreloadleft_2"><SynchReloadLeft_2 /></Route>
+				<Route exact path="/buttontexttyperoundedstateprimaryalignnonesizelargebodynormalicontrue"><ButtonTextTypeRoundedStatePrimaryAlignNoneSizeLargeBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstateprimaryalignnonesizemediumbodynormalicontrue"><ButtonTextTypeRoundedStatePrimaryAlignNoneSizeMediumBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstateprimaryalignnonesizesmallbodynormalicontrue"><ButtonTextTypeRoundedStatePrimaryAlignNoneSizeSmallBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstateprimaryalignleftsizelargebodynormalicontrue"><ButtonTextTypeRoundedStatePrimaryAlignLeftSizeLargeBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstateprimaryalignleftsizemediumbodynormalicontrue"><ButtonTextTypeRoundedStatePrimaryAlignLeftSizeMediumBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstateprimaryalignleftsizesmallbodynormalicontrue"><ButtonTextTypeRoundedStatePrimaryAlignLeftSizeSmallBodyNormalIconTrue /></Route>
+				<Route exact path="/cloud"><Cloud /></Route>
+				<Route exact path="/uiupload"><UIUpload /></Route>
+				<Route exact path="/buttontexttyperoundedstateprimaryaligndoubleiconsizelargebodynormalicontrue"><ButtonTextTypeRoundedStatePrimaryAlignDoubleIconSizeLargeBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstateprimaryaligndoubleiconsizemediumbodynormalicontrue"><ButtonTextTypeRoundedStatePrimaryAlignDoubleIconSizeMediumBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstateprimaryaligndoubleiconsizesmallbodynormalicontrue"><ButtonTextTypeRoundedStatePrimaryAlignDoubleIconSizeSmallBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstateprimaryalignrightsizemediumbodynormalicontrue"><ButtonTextTypeRoundedStatePrimaryAlignRightSizeMediumBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstateprimaryalignrightsizesmallbodynormalicontrue"><ButtonTextTypeRoundedStatePrimaryAlignRightSizeSmallBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstateprimaryalignjustifysizelargebodynormalicontrue"><ButtonTextTypeRoundedStatePrimaryAlignJustifySizeLargeBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstateprimaryalignjustifysizemediumbodynormalicontrue"><ButtonTextTypeRoundedStatePrimaryAlignJustifySizeMediumBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstateprimaryalignjustifysizesmallbodynormalicontrue"><ButtonTextTypeRoundedStatePrimaryAlignJustifySizeSmallBodyNormalIconTrue /></Route>
+				<Route exact path="/buttonicontyperoundedstateprimaryalignnonesizelargebodysquareicontrue"><ButtonIconTypeRoundedStatePrimaryAlignNoneSizeLargeBodySquareIconTrue /></Route>
+				<Route exact path="/buttonicontyperoundedstateprimaryalignnonesizemediumbodysquareicontrue"><ButtonIconTypeRoundedStatePrimaryAlignNoneSizeMediumBodySquareIconTrue /></Route>
+				<Route exact path="/buttonicontyperoundedstateprimaryalignnonesizesmallbodysquareicontrue"><ButtonIconTypeRoundedStatePrimaryAlignNoneSizeSmallBodySquareIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstatesecondaryalignnonesizelargebodynormaliconfalse"><ButtonTextTypeRoundedStateSecondaryAlignNoneSizeLargeBodyNormalIconFalse /></Route>
+				<Route exact path="/buttontexttyperoundedstatesecondaryalignnonesizemediumbodynormaliconfalse"><ButtonTextTypeRoundedStateSecondaryAlignNoneSizeMediumBodyNormalIconFalse /></Route>
+				<Route exact path="/buttontexttyperoundedstatesecondaryalignnonesizesmallbodynormaliconfalse"><ButtonTextTypeRoundedStateSecondaryAlignNoneSizeSmallBodyNormalIconFalse /></Route>
+				<Route exact path="/buttontexttyperoundedstatesecondaryalignnonesizelargebodynormalicontrue"><ButtonTextTypeRoundedStateSecondaryAlignNoneSizeLargeBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstatesecondaryalignnonesizemediumbodynormalicontrue"><ButtonTextTypeRoundedStateSecondaryAlignNoneSizeMediumBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstatesecondaryalignnonesizesmallbodynormalicontrue"><ButtonTextTypeRoundedStateSecondaryAlignNoneSizeSmallBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstatesecondaryalignleftsizelargebodynormalicontrue"><ButtonTextTypeRoundedStateSecondaryAlignLeftSizeLargeBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstatesecondaryalignleftsizemediumbodynormalicontrue"><ButtonTextTypeRoundedStateSecondaryAlignLeftSizeMediumBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstatesecondaryalignleftsizesmallbodynormalicontrue"><ButtonTextTypeRoundedStateSecondaryAlignLeftSizeSmallBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstatesecondaryaligndoubleiconsizelargebodynormalicontrue"><ButtonTextTypeRoundedStateSecondaryAlignDoubleIconSizeLargeBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstatesecondaryaligndoubleiconsizemediumbodynormalicontrue"><ButtonTextTypeRoundedStateSecondaryAlignDoubleIconSizeMediumBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstatesecondaryaligndoubleiconsizesmallbodynormalicontrue"><ButtonTextTypeRoundedStateSecondaryAlignDoubleIconSizeSmallBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstatesecondaryalignrightsizemediumbodynormalicontrue"><ButtonTextTypeRoundedStateSecondaryAlignRightSizeMediumBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstatesecondaryalignjustifysizelargebodynormalicontrue"><ButtonTextTypeRoundedStateSecondaryAlignJustifySizeLargeBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstatesecondaryalignjustifysizemediumbodynormalicontrue"><ButtonTextTypeRoundedStateSecondaryAlignJustifySizeMediumBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttyperoundedstatesecondaryalignjustifysizesmallbodynormalicontrue"><ButtonTextTypeRoundedStateSecondaryAlignJustifySizeSmallBodyNormalIconTrue /></Route>
+				<Route exact path="/buttonicontyperoundedstatesecondaryalignnonesizelargebodysquareicontrue"><ButtonIconTypeRoundedStateSecondaryAlignNoneSizeLargeBodySquareIconTrue /></Route>
+				<Route exact path="/buttonicontyperoundedstatesecondaryalignnonesizemediumbodysquareicontrue"><ButtonIconTypeRoundedStateSecondaryAlignNoneSizeMediumBodySquareIconTrue /></Route>
+				<Route exact path="/buttonicontypeellipsestateprimaryalignnonesizelargebodyellipseicontrue"><ButtonIconTypeEllipseStatePrimaryAlignNoneSizeLargeBodyEllipseIconTrue /></Route>
+				<Route exact path="/buttonicontypeellipsestateprimaryalignnonesizemediumbodyellipseicontrue"><ButtonIconTypeEllipseStatePrimaryAlignNoneSizeMediumBodyEllipseIconTrue /></Route>
+				<Route exact path="/buttonicontypeellipsestateprimaryalignnonesizesmallbodyellipseicontrue"><ButtonIconTypeEllipseStatePrimaryAlignNoneSizeSmallBodyEllipseIconTrue /></Route>
+				<Route exact path="/buttonicontypeellipsestatesecondaryalignnonesizelargebodyellipseicontrue"><ButtonIconTypeEllipseStateSecondaryAlignNoneSizeLargeBodyEllipseIconTrue /></Route>
+				<Route exact path="/buttonicontypeellipsestatesecondaryalignnonesizemediumbodyellipseicontrue"><ButtonIconTypeEllipseStateSecondaryAlignNoneSizeMediumBodyEllipseIconTrue /></Route>
+				<Route exact path="/buttonicontypeellipsestatesecondaryalignnonesizesmallbodyellipseicontrue"><ButtonIconTypeEllipseStateSecondaryAlignNoneSizeSmallBodyEllipseIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestateprimaryalignnonesizelargebodynormaliconfalse"><ButtonTextTypeEllipseStatePrimaryAlignNoneSizeLargeBodyNormalIconFalse /></Route>
+				<Route exact path="/buttontexttypeellipsestateprimaryalignnonesizemediumbodynormaliconfalse"><ButtonTextTypeEllipseStatePrimaryAlignNoneSizeMediumBodyNormalIconFalse /></Route>
+				<Route exact path="/buttontexttypeellipsestateprimaryalignnonesizesmallbodynormaliconfalse"><ButtonTextTypeEllipseStatePrimaryAlignNoneSizeSmallBodyNormalIconFalse /></Route>
+				<Route exact path="/buttontexttypeellipsestateprimaryalignnonesizelargebodynormalicontrue"><ButtonTextTypeEllipseStatePrimaryAlignNoneSizeLargeBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestateprimaryalignnonesizemediumbodynormalicontrue"><ButtonTextTypeEllipseStatePrimaryAlignNoneSizeMediumBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestateprimaryalignnonesizesmallbodynormalicontrue"><ButtonTextTypeEllipseStatePrimaryAlignNoneSizeSmallBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestateprimaryalignleftsizelargebodynormalicontrue"><ButtonTextTypeEllipseStatePrimaryAlignLeftSizeLargeBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestateprimaryalignleftsizemediumbodynormalicontrue"><ButtonTextTypeEllipseStatePrimaryAlignLeftSizeMediumBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestateprimaryalignleftsizesmallbodynormalicontrue"><ButtonTextTypeEllipseStatePrimaryAlignLeftSizeSmallBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestateprimaryaligndoubleiconsizelargebodynormalicontrue"><ButtonTextTypeEllipseStatePrimaryAlignDoubleIconSizeLargeBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestateprimaryaligndoubleiconsizemediumbodynormalicontrue"><ButtonTextTypeEllipseStatePrimaryAlignDoubleIconSizeMediumBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestateprimaryaligndoubleiconsizesmallbodynormalicontrue"><ButtonTextTypeEllipseStatePrimaryAlignDoubleIconSizeSmallBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestateprimaryalignrightsizelargebodynormalicontrue"><ButtonTextTypeEllipseStatePrimaryAlignRightSizeLargeBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestateprimaryalignrightsizemediumbodynormalicontrue"><ButtonTextTypeEllipseStatePrimaryAlignRightSizeMediumBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestateprimaryalignrightsizesmallbodynormalicontrue"><ButtonTextTypeEllipseStatePrimaryAlignRightSizeSmallBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestateprimaryalignjustifysizelargebodynormalicontrue"><ButtonTextTypeEllipseStatePrimaryAlignJustifySizeLargeBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestateprimaryalignjustifysizemediumbodynormalicontrue"><ButtonTextTypeEllipseStatePrimaryAlignJustifySizeMediumBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestateprimaryalignjustifysizesmallbodynormalicontrue"><ButtonTextTypeEllipseStatePrimaryAlignJustifySizeSmallBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestatesecondaryalignnonesizelargebodynormaliconfalse"><ButtonTextTypeEllipseStateSecondaryAlignNoneSizeLargeBodyNormalIconFalse /></Route>
+				<Route exact path="/buttontexttypeellipsestatesecondaryalignnonesizemediumbodynormaliconfalse"><ButtonTextTypeEllipseStateSecondaryAlignNoneSizeMediumBodyNormalIconFalse /></Route>
+				<Route exact path="/buttontexttypeellipsestatesecondaryalignnonesizesmallbodynormaliconfalse"><ButtonTextTypeEllipseStateSecondaryAlignNoneSizeSmallBodyNormalIconFalse /></Route>
+				<Route exact path="/buttontexttypeellipsestatesecondaryalignnonesizelargebodynormalicontrue"><ButtonTextTypeEllipseStateSecondaryAlignNoneSizeLargeBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestatesecondaryalignnonesizemediumbodynormalicontrue"><ButtonTextTypeEllipseStateSecondaryAlignNoneSizeMediumBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestatesecondaryalignnonesizesmallbodynormalicontrue"><ButtonTextTypeEllipseStateSecondaryAlignNoneSizeSmallBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestatesecondaryalignleftsizelargebodynormalicontrue"><ButtonTextTypeEllipseStateSecondaryAlignLeftSizeLargeBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestatesecondaryalignleftsizemediumbodynormalicontrue"><ButtonTextTypeEllipseStateSecondaryAlignLeftSizeMediumBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestatesecondaryalignleftsizesmallbodynormalicontrue"><ButtonTextTypeEllipseStateSecondaryAlignLeftSizeSmallBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestatesecondaryaligndoubleiconsizelargebodynormalicontrue"><ButtonTextTypeEllipseStateSecondaryAlignDoubleIconSizeLargeBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestatesecondaryaligndoubleiconsizemediumbodynormalicontrue"><ButtonTextTypeEllipseStateSecondaryAlignDoubleIconSizeMediumBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestatesecondaryaligndoubleiconsizesmallbodynormalicontrue"><ButtonTextTypeEllipseStateSecondaryAlignDoubleIconSizeSmallBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestatesecondaryalignrightsizelargebodynormalicontrue"><ButtonTextTypeEllipseStateSecondaryAlignRightSizeLargeBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestatesecondaryalignrightsizemediumbodynormalicontrue"><ButtonTextTypeEllipseStateSecondaryAlignRightSizeMediumBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestatesecondaryalignrightsizesmallbodynormalicontrue"><ButtonTextTypeEllipseStateSecondaryAlignRightSizeSmallBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestatesecondaryalignjustifysizelargebodynormalicontrue"><ButtonTextTypeEllipseStateSecondaryAlignJustifySizeLargeBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestatesecondaryalignjustifysizemediumbodynormalicontrue"><ButtonTextTypeEllipseStateSecondaryAlignJustifySizeMediumBodyNormalIconTrue /></Route>
+				<Route exact path="/buttontexttypeellipsestatesecondaryalignjustifysizesmallbodynormalicontrue"><ButtonTextTypeEllipseStateSecondaryAlignJustifySizeSmallBodyNormalIconTrue /></Route>
+			</Switch>
+		</Router>
+	);
+}
+export default RouterDOM;
