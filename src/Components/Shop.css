@@ -4,9 +4,9 @@
 	left: 0px;
 	top: 0px;
 	margin: auto;
-	width: 100%;
+	width: 93%;
 	height: 100vh;
-	overflow: auto;
+	/* overflow: auto; */
 	background: rgba(244,247,248,1.00);
 }
 .Shop_Shop .Footer {
